@@ -4,20 +4,20 @@ import time
 def test_1():
     print('test_1')
     time.sleep(1)
-    print('after 1 sec')
+    print('test 1 step1')
     time.sleep(1)
-    print('after 2 sec')
+    print('test 1 step2')
     time.sleep(1)
-    print('after 3 sec')
-    assert (1, 'should pass')
+    print('test 2 step3')
+    assert True, 'Pass'
 
 
 def test_2():
     print('in test_2')
     time.sleep(1)
-    print('after 1 sec')
+    print('test 2 step1')
     time.sleep(1)
-    print('after 2 sec')
+    print('test 2 step2')
     time.sleep(1)
-    print('after 3 sec')
-    assert (0, 'failing for demo purposes')
+    print('test 2 step3')
+    assert False, 'Failed'
