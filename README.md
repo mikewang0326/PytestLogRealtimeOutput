@@ -11,3 +11,8 @@
  -s : shortcut for --capture=no.
  
    --capture=method      per-test capturing method: one of fd|sys|no.
+
+
+Timeout setting:
+
+https://pypi.org/project/pytest-timeout/
